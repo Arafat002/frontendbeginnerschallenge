@@ -1,0 +1,133 @@
+@media (min-width:375px) {
+    
+body {
+    background: url(./images/bg-pattern-top-desktop.svg);
+    background: url(./images/bg-pattern-bottom-desktop.svg);
+    font-family:sans-serif;
+}
+h1 {
+    display: flex;
+    font-size: 70px;
+    color: hsl(300, 43%, 22%);
+    margin-top: 150px;
+
+}
+.opinions{
+    display: flex;
+    border: 1px ;
+    flex-wrap: wrap;
+    width: 550px;
+
+}
+.opinions p{
+    font-size: 23px;
+    color: hsl(303, 10%, 53%);
+}
+h3{
+    color: hsl(0, 0%, 100%);
+    font-weight: 80;
+    font-size: 20px;
+}
+h2{
+    color: hsl(0, 0%, 100%);
+    padding-left: 40px;
+}
+.star-1 {
+    display:flex;
+    border:1px ;
+    border-radius: 0.5em;
+    padding: 0.5px;
+    float: right;
+    background-color: hsl(300, 24%, 96%);
+    color: hsl(300, 43%, 22%);
+    flex-direction: row;
+    width: 400px;
+    margin-top: -400px;
+    margin-right: 400px;     
+}
+.star-2 {
+    display:flex;
+    border:1px ;
+    border-radius: 0.5em;
+    padding: 0.5px;
+    float: right;
+    width: 400px;
+    background-color: hsl(300, 24%, 96%);
+    color: hsl(300, 43%, 22%);
+    flex-direction: row;
+    margin-right: 300px;
+    margin-top: -300px;
+
+     
+}
+.star-3 {
+    display:flex;
+    border:1px ;
+    border-radius: 0.5em;
+    padding: 0.5px;
+    float: right;
+    width: 400px;
+    background-color: hsl(300, 24%, 96%);
+    color: hsl(300, 43%, 22%);
+    flex-direction: row;
+    margin-top: -200px;
+    margin-right: 200px;
+     
+}
+.comments p{
+    color: hsl(333, 80%, 67%);
+    display: flex;
+    margin-left: -140px;
+    margin-top: 60px;
+}
+.flex-box-1 {
+    display: flex;
+    border: 1px solid hsl(300, 43%, 22%);
+    flex-wrap: wrap;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 0.5em;
+    height: 300px;
+    width: 450px;
+    margin: 20px;
+}
+.flex-box-2{
+    display: flex;
+    border: 1px solid hsl(300, 43%, 22%);
+    flex-wrap: wrap;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 0.5em;
+    height: 300px;
+    width: 450px;
+    margin-top: 50px;
+    margin-left: 30px;
+    
+}
+.flex-box-3{
+    display: flex;
+    border: 1px solid hsl(300, 43%, 22%);
+    flex-wrap: wrap;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 0.5em;
+    height: 300px;
+    width: 450px;
+    margin-top: 100px;
+    margin-left: 40px;
+    
+}
+.comments img {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+.comments{
+    display: inline-flex;
+
+    
+}
+.star-1 img, .star-2 img, .star-3 img{
+    padding: 5px;
+}
+}
